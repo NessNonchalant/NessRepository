@@ -5,7 +5,7 @@ class Account {
     private String accountNumber;
     private String fullName;
     private Currency currency;
-    double balance;
+    private double balance;
 
     void setCurrency(Currency currency) {
         this.currency = currency;
